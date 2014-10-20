@@ -8,7 +8,6 @@
 	var activo = Timer.prototype;
 	var unidad = Timer.prototype;
 	var reiniciar=Timer.prototype;
-	var timerOn=null;
 
     // Métodos
     Timer.prototype.Constructor = function () {
