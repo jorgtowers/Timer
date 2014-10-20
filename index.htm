@@ -1,0 +1,18 @@
+<html>
+<head>
+<script type="text/javascript" src="Timer.js"></script>
+</head>
+<body>
+<div id="hora"></div>
+<script type="text/javascript">
+	var hora=document.getElementById("hora");
+	var timer=new Timer();
+	timer.Intervalo=1;
+	timer.Activo=true;
+	timer.Tick(function(){
+		 hora.innerHTML=new Date();
+		}
+	);
+</script>
+</body>
+</html>
